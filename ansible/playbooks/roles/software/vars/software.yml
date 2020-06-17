@@ -1,3 +1,20 @@
 packages:
  - neovim
+ - smbclient
+ - openconnect
+ - i3
+ - htop
+ - i3
+ - git
+ - awscli
+ - rofi # i3 launcher
+ - feh # for i3 backgrounds
+ - compton #for i3 backgrounds
+ - silversearcher-ag
+ - docker.io
+ - curl
+ - pavucontrol # for i3 music playing
+ - jq
+ - keepass2
  - meld
+

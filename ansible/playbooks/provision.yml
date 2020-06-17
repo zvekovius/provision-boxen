@@ -2,6 +2,6 @@
 # After all. This is zero to ZVEKOVIUS hero.
 - hosts: localhost
   roles:
-   - vim
+   - neovim
    - i3
    - software

@@ -1,0 +1,5 @@
+# Create ~/.config/nvim/
+# Add ~/.config/nvim/init.vim
+# Create ~/.config/nvim/bundle
+# Checkout ~/.config/nvim/bundle/Vundle.vim
+# Run vim & install plugins
