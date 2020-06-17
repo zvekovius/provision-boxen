@@ -10,6 +10,6 @@ A repository meant to take an Ubuntu image from fresh to usable pretty quick.
 
 `cd /tmp/provision-boxen`
 
-`./bootstraph.sh`
+`./bootstrap.sh`
 
 You should then have a boxen restarted ready for usage.
