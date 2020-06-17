@@ -1,8 +1,6 @@
 # This is opinionated. Not too many switches or variables. 
 # After all. This is zero to ZVEKOVIUS hero.
 - hosts: localhost
-  var_files:
-    - ../variables.yml
   roles:
    - vim
    - i3
