@@ -12,6 +12,8 @@ packages:
  - compton #for i3 backgrounds
  - silversearcher-ag
  - docker.io
+ - i3lock
+ - i3status
  - curl
  - pavucontrol # for i3 music playing
  - jq
