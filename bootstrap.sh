@@ -8,10 +8,10 @@
 sudo apt-get update
 
 # We'll make a virtualenv for ansible to install this provisioner.
-sudo apt-get install python3-venv -y
+sudo apt-get install python3-venv python3-apt -y
 
-# Make the venv for ansible
-python3 -m venv /tmp/provision-venv
+# Make the venv for ansible. Give access to system-site-packages for apt.
+python3 -m venv /tmp/provision-venv --system-site-packages
 
 # Get into the venv.
 source /tmp/provision-venv/bin/activate
@@ -23,4 +23,4 @@ source /tmp/provision-venv/bin/activate
 pip install ansible==2.9.*
 
 # Everything else at this point is ansible.
-ansible-playbook ansible/playbooks/provision.yml
+ansible-playbook ansible/playbooks/provision.yml -K

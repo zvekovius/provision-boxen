@@ -1,0 +1,15 @@
+- name: Create config directory
+  file:
+    path: ~/.config/i3
+    state: directory
+    mode: u=rwx,g=rx,o-rwx
+    owner: zvekovius
+    group: zvekovius
+
+- name: Copy config file in place
+  copy:
+    src: ../files/config
+    dest: ~/.config/i3/config
+    mode: u=rwx,g=rx,o-rwx
+    owner: zvekovius
+    group: zvekovius

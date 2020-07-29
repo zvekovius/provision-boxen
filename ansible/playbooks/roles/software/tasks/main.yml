@@ -1,0 +1,18 @@
+- name: Pull in software vars
+  include_vars:
+    dir: ../vars/
+ 
+- name: Upadate box
+  apt:
+    update_cache: yes
+    upgrade: yes
+  become_user: root
+  become: yes
+
+- name: Install packages
+  apt:
+    name: "{{ packages }}"
+    state: latest
+  become_user: root
+  become: yes
+ 
