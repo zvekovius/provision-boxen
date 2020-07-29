@@ -27,7 +27,7 @@
 - name: Checkout Vundle
   git:
     repo: 'https://github.com/VundleVim/Vundle.vim'
-    dest: ~/.config/nvim/bundle/
+    dest: ~/.config/nvim/bundle/Vundle.vim
 
 # Not really idempotent. But PluginInstall will no-op if nothing to do.
 # Have to deal with "changed" forever on this one.
