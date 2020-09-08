@@ -19,4 +19,4 @@ packages:
  - jq
  - keepass2
  - meld
-
+ - python3-dev
