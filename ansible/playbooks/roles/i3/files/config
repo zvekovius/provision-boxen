@@ -181,9 +181,7 @@ new_window pixel 0
 #Start some things:
 exec xsetroot -solid "#000000"
 exec sleep 2
-exec xrandr --output Virtual2 --left-of Virtual1
 exec --no-startup-id compton
-exec vmware-user
 exec feh --bg-scale /home/zvekovius/wallpapers/spaceship-scifi-city-5w-1920x1080.jpg
 
 #Lock the screen

@@ -22,7 +22,6 @@
     mode: u=rwx,g=rx,o-rwx
     owner: zvekovius
     group: zvekovius
-    mode: u=rwx,g=rx,o-rwx
 
 - name: Checkout Vundle
   git:
