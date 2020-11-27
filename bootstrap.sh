@@ -24,3 +24,5 @@ pip install ansible==2.9.*
 
 # Everything else at this point is ansible.
 ansible-playbook ansible/playbooks/provision.yml -K
+
+deactivate
