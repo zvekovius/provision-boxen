@@ -11,6 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 " ======
 Plugin 'hashivim/vim-terraform'
 Plugin 'tpope/vim-fugitive'
+Plugin 'morhetz/gruvbox'
 " ======
 " End of Plugins
 " ======
