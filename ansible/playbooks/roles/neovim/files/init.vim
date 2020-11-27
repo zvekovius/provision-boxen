@@ -25,6 +25,9 @@ let g:terraform_fmt_on_save=1
 
 " My sad customizations
 set number
+set termguicolors
+let g:gruvbox_italic=1
+colorscheme gruvbox
 
 syntax on
 
@@ -58,5 +61,5 @@ au BufNewFile,BufRead *.tf
 	\ set autoindent |
 	\ set fileformat=unix
 
-" au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.js,*.ts match BadWhitespace /\s\+$/
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.js,*.ts match BadWhitespace /\s\+$/
 let python_highlight_all=1
